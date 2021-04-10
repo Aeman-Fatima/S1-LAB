@@ -8,13 +8,13 @@ body{
     font-family: 'Poppins';
     line-height: 1.4;
     color: #3a3a3a;
-    background-color: #f4f6f8;
     font-size: 15px;
     letter-spacing: 1px;
 }
 .main-body{
     background-color: white;
     padding: 30px;
+    padding-top: 7em;
 }
 .right{
     float: right;
@@ -169,6 +169,8 @@ footer{
     text-align: center;
     align-items: center;
     width: 100%;
+    bottom: 51px !important;
+    position: absolute;
 }
 
 .bottom-bar{
@@ -178,6 +180,8 @@ footer{
     color: black;
     text-align: center;
     width:100%;
+    bottom: 0px !important;
+    position: absolute;
 }
 
 
