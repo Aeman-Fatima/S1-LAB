@@ -123,7 +123,8 @@ nav{
     background-color: #0e737f;
     min-width: 220px;
     transition: 0.3s;
-    color: white
+    color: white;
+    z-index: 99;
 }
 .dropdown2-content{
     margin-top: -42px;
@@ -216,7 +217,6 @@ footer{
     font-weight: 300;
     padding: 30px;
     display: inline-block;
-    float: right;
     position: relative;
 
 }
